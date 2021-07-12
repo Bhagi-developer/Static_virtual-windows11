@@ -1,12 +1,14 @@
 $(document).ready(() => {
 
-    setTimeout(() => {
+    
+
+    $(".startIcons").click(() => {
+        setTimeout(() => {
             var audio = new Audio("windows11.mp3");
             audio.play();
     
         }, 0);
-
-    $(".startIcons").click(() => {
+        
         $(".startMenue").toggleClass("showStart");
 
     })
