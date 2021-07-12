@@ -6,11 +6,13 @@ $(document).ready(() => {
 
         
         $(".startMenue").toggleClass("showStart");
+        
         setTimeout(() => {
             var audio = new Audio("windows11.mp3");
             audio.play();
     
         }, 10);
+        
     })
 
     function declare(){
