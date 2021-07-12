@@ -3,14 +3,14 @@ $(document).ready(() => {
     
 
     $(".startIcons").click(() => {
+
+        
+        $(".startMenue").toggleClass("showStart");
         setTimeout(() => {
             var audio = new Audio("windows11.mp3");
             audio.play();
     
-        }, 0);
-        
-        $(".startMenue").toggleClass("showStart");
-
+        }, 10);
     })
 
     function declare(){
