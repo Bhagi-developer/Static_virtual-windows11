@@ -60,6 +60,7 @@ body{
     width: 100vw;
     background:url("bg.jpg");
     object-fit: cover;
+    
     background-size: cover;
     /* overflow-y: hidden; */
 }
