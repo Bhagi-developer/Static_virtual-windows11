@@ -58,7 +58,7 @@ body{ */
 body{
     height: 100%;
     width: 100vw;
-    background: url('bg.jpg');
+    background:url("bg.jpg");
     object-fit: cover;
     background-size: cover;
     /* overflow-y: hidden; */
